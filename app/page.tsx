@@ -39,7 +39,7 @@ export default function Home() {
       </section>
 
       {/* About Section */}
-      <section id="about" className="py-20 bg-gradient-secondary">
+      <section id="about" className="py-20 bg-background">
         <div className="container">
           <motion.div
             initial={{ opacity: 0, y: 20 }}
@@ -132,7 +132,7 @@ export default function Home() {
       </section>
 
       {/* Portfolio Section */}
-      <section id="portfolio" className="py-20 bg-gradient-secondary">
+      <section id="portfolio" className="py-20 bg-muted">
         <div className="container">
           <motion.div
             initial={{ opacity: 0, y: 20 }}
@@ -161,7 +161,7 @@ export default function Home() {
       </section>
 
       {/* Charity Section */}
-      <section id="charity" className="py-20">
+      <section id="charity" className="py-20 bg-background">
         <div className="container">
           <motion.div
             initial={{ opacity: 0, y: 20 }}
@@ -171,11 +171,13 @@ export default function Home() {
             className="max-w-3xl mx-auto text-center space-y-6"
           >
             <h2 className="text-3xl font-bold tracking-tighter">Making a Difference</h2>
-            <p className="text-lg text-muted-foreground">
-              At EVN Media, we believe in using our skills and expertise to make a positive impact on the world. Through
-              our pro bono digital marketing services, we help charities and non-profits amplify their message and reach
-              a wider audience.
-            </p>
+            <div className="space-y-6">
+              <p className="text-lg text-muted-foreground">
+                At EVN Media, we believe in using our skills and expertise to make a positive impact on the world.
+                Through our pro bono digital marketing services, we help charities and non-profits amplify their message
+                and reach a wider audience.
+              </p>
+            </div>
             <Button variant="outline" asChild>
               <Link href="/charity">Partner With Us</Link>
             </Button>
@@ -184,7 +186,7 @@ export default function Home() {
       </section>
 
       {/* Contact Section */}
-      <section id="contact" className="py-20 bg-gradient-secondary">
+      <section id="contact" className="py-20 bg-muted">
         <div className="container">
           <motion.div
             initial={{ opacity: 0, y: 20 }}

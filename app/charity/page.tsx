@@ -50,7 +50,7 @@ export default function CharityPage() {
       </section>
 
       {/* Mission & Vision Section */}
-      <section className="py-20 bg-gradient-secondary">
+      <section className="py-20 bg-background">
         <div className="container">
           <motion.div
             initial={{ opacity: 0, y: 20 }}
@@ -59,18 +59,20 @@ export default function CharityPage() {
             viewport={{ once: true }}
             className="max-w-3xl mx-auto space-y-6"
           >
-            <p className="text-lg">
-              Through our pro bono digital marketing services, we help these organisations amplify their message, reach
-              a wider audience, and inspire action. We believe that when we help these organisations achieve their
-              goals, we&apos;re not only contributing to a more just and equitable society, but also fulfilling our own
-              mission to make a meaningful difference in the world.
-            </p>
-            <p className="text-lg">
-              Whether it&apos;s supporting environmental causes, fighting for social justice, or helping those in need,
-              we&apos;re committed to using our talents to support organisations that are making a positive impact on
-              our world. We invite you to join us in this mission, and to learn more about how we can help your charity
-              or non-profit organisation achieve its goals through digital marketing.
-            </p>
+            <div className="bg-background p-6 rounded-lg border space-y-6">
+              <p className="text-lg">
+                Through our pro bono digital marketing services, we help these organisations amplify their message,
+                reach a wider audience, and inspire action. We believe that when we help these organisations achieve
+                their goals, we&apos;re not only contributing to a more just and equitable society, but also fulfilling
+                our own mission to make a meaningful difference in the world.
+              </p>
+              <p className="text-lg">
+                Whether it&apos;s supporting environmental causes, fighting for social justice, or helping those in
+                need, we&apos;re committed to using our talents to support organisations that are making a positive
+                impact on our world. We invite you to join us in this mission, and to learn more about how we can help
+                your charity or non-profit organisation achieve its goals through digital marketing.
+              </p>
+            </div>
           </motion.div>
         </div>
       </section>

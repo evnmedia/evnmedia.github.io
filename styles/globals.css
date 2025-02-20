@@ -13,7 +13,6 @@
     --popover: 0 0% 100%;
     --popover-foreground: 20 14.3% 4.1%;
 
-    --primary: 24 96% 53%;
     --primary-foreground: 60 9.1% 97.8%;
 
     --secondary: 24 96% 97%;
@@ -30,7 +29,7 @@
 
     --border: 20 5.9% 90%;
     --input: 20 5.9% 90%;
-    --ring: 24 96% 53%;
+    --ring: 24 95% 53%;
 
     --radius: 0.5rem;
   }
@@ -45,7 +44,6 @@
     --popover: 20 14.3% 4.1%;
     --popover-foreground: 60 9.1% 97.8%;
 
-    --primary: 24 96% 53%;
     --primary-foreground: 60 9.1% 97.8%;
 
     --secondary: 12 6.5% 15.1%;
@@ -62,7 +60,7 @@
 
     --border: 12 6.5% 15.1%;
     --input: 12 6.5% 15.1%;
-    --ring: 24 96% 53%;
+    --ring: 24 95% 53%;
   }
 }
 
@@ -70,31 +68,31 @@
   .container {
     @apply mx-auto px-4 max-w-7xl;
   }
+
+  /* Fixed gradient classes with proper spacing */
+  .bg-gradient-primary {
+    @apply bg-gradient-to-r from-[#f97316] to-[#ea580c];
+  }
+
+  .bg-gradient-secondary {
+    @apply bg-gradient-to-r from-orange-50 to-orange-100;
+  }
+
+  .bg-gradient-accent {
+    @apply bg-gradient-to-br from-[#f97316] via-[#fb923c] to-[#f97316];
+  }
+
+  .hover-gradient {
+    @apply hover:bg-gradient-to-r hover:from-[#f97316] hover:to-[#ea580c] hover:text-white transition-all duration-300;
+  }
 }
 
 @layer base {
   * {
     @apply border-border;
   }
+
   body {
     @apply bg-background text-foreground;
   }
 }
-
-/* Custom gradient backgrounds */
-.bg-gradient-primary {
-  @apply bg-gradient-to-r from-orange-500/90 to-orange-600/90;
-}
-
-.bg-gradient-secondary {
-  @apply bg-gradient-to-r from-orange-50 to-orange-100;
-}
-
-.bg-gradient-accent {
-  @apply bg-gradient-to-br from-orange-500 via-orange-400 to-orange-500;
-}
-
-.hover-gradient {
-  @apply hover:bg-gradient-to-r hover:from-orange-500 hover:to-orange-600 hover:text-white transition-all duration-300;
-}
-
