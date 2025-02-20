@@ -155,7 +155,7 @@ export default function BlogPage() {
   return (
     <div className="min-h-screen pt-20">
       {/* Hero Section */}
-      <section className="py-20 bg-muted">
+      <section className="py-20 bg-orange-50">
         <div className="container">
           <motion.div
             initial={{ opacity: 0, y: 20 }}

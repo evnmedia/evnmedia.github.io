@@ -132,7 +132,7 @@ export default function Home() {
       </section>
 
       {/* Portfolio Section */}
-      <section id="portfolio" className="py-20 bg-muted">
+      <section id="portfolio" className="py-20 bg-orange-50">
         <div className="container">
           <motion.div
             initial={{ opacity: 0, y: 20 }}
@@ -186,7 +186,7 @@ export default function Home() {
       </section>
 
       {/* Contact Section */}
-      <section id="contact" className="py-20 bg-muted">
+      <section id="contact" className="py-20 bg-orange-50">
         <div className="container">
           <motion.div
             initial={{ opacity: 0, y: 20 }}
