@@ -10,14 +10,14 @@ const articles = [
     title: "5 Effective Strategies to Reduce Cart Abandonment Rates in E-Commerce",
     excerpt:
       "One of the biggest challenges that e-commerce stores face is cart abandonment. Cart abandonment refers to the act of a customer adding...",
-    image: "/placeholder.svg?height=200&width=400",
+    image: "/placeholder.svg",
     date: "2024-01-15",
   },
   {
     slug: "optimising-bidding-strategies",
     title: "Optimising bidding strategies in Google Ads for maximum ROI",
     excerpt: "To get the most out of your Google Ads campaigns, it is essential to optimise your bidding strategy.",
-    image: "/placeholder.svg?height=200&width=400",
+    image: "/placeholder.svg",
     date: "2024-01-15",
   },
   // ... add all other articles with their images

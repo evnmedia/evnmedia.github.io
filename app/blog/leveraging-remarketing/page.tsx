@@ -27,7 +27,7 @@ export default function BlogArticlePage() {
 
               <div className="aspect-[2/1] relative overflow-hidden rounded-lg">
                 <Image
-                  src="/placeholder.svg?height=400&width=800"
+                  src="/placeholder.svg"
                   alt="Leveraging Google Ads remarketing"
                   fill
                   className="object-cover"
