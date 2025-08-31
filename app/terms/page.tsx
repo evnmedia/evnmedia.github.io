@@ -539,7 +539,7 @@ export default function TermsPage() {
             <br />
             London
           </p>
-          <p>Email: team@evnmedia.com</p>
+          <p>Email: management@uniplates.co.uk</p>
         </motion.div>
       </div>
     </div>

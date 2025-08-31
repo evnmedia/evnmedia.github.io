@@ -28,7 +28,7 @@ export default function PrivacyPage() {
           <p>
             <strong>Questions or concerns?</strong> Reading this privacy notice will help you understand your privacy
             rights and choices. If you do not agree with our policies and practices, please do not use our Services. If
-            you still have any questions or concerns, please contact us at: team@evnmedia.com
+            you still have any questions or concerns, please contact us at: management@uniplates.co.uk
           </p>
 
           <h2>1. WHAT INFORMATION DO WE COLLECT?</h2>
@@ -299,7 +299,7 @@ export default function PrivacyPage() {
             such minor dependent's use of the Services. If we learn that personal information from users less than 18
             years of age has been collected, we will deactivate the account and take reasonable measures to promptly
             delete such data from our records. If you become aware of any data we may have collected from children under
-            age 18, please contact us at: team@evnmedia.com
+            age 18, please contact us at: management@uniplates.co.uk
           </p>
 
           <h2>8. WHAT ARE YOUR PRIVACY RIGHTS?</h2>
@@ -340,7 +340,7 @@ export default function PrivacyPage() {
             service-related messages that are necessary for the administration and use of your account, to respond to
             service requests, or for other non-marketing purposes.
           </p>
-          <p>If you have questions or comments about your privacy rights, you may email us at: team@evnmedia.com</p>
+          <p>If you have questions or comments about your privacy rights, you may email us at: management@uniplates.co.uk</p>
 
           <h2>9. CONTROLS FOR DO-NOT-TRACK FEATURES</h2>
           <p>
@@ -382,7 +382,7 @@ export default function PrivacyPage() {
 
           <h2>12. HOW CAN YOU CONTACT US ABOUT THIS NOTICE?</h2>
           <p>
-            If you have questions or comments about this notice, you may email us at: team@evnmedia.com or by post to:
+            If you have questions or comments about this notice, you may email us at: management@uniplates.co.uk or by post to:
           </p>
           <p>
             EVN MEDIA LTD
@@ -400,7 +400,7 @@ export default function PrivacyPage() {
           <p>
             Based on the applicable laws of your country, you may have the right to request access to the personal
             information we collect from you, change that information, or delete it. To request to review, update, or
-            delete your personal information please contact us at: team@evnmedia.com
+            delete your personal information please contact us at: management@uniplates.co.uk
           </p>
         </motion.div>
       </div>
