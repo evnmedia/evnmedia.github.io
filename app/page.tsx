@@ -132,7 +132,7 @@ export default function Home() {
       </section>
 
       {/* Portfolio Section */}
-      <section id="portfolio" className="py-20 bg-orange-50">
+      <section id="portfolio" className="py-20 bg-gray-900">
         <div className="container">
           <motion.div
             initial={{ opacity: 0, y: 20 }}
@@ -141,18 +141,24 @@ export default function Home() {
             viewport={{ once: true }}
             className="grid md:grid-cols-2 gap-12 items-center"
           >
-            <div className="relative aspect-video">
-              <Image src="/educad-logo.png" alt="Educad Case Study" fill className="object-cover rounded-lg" />
+            <div className="relative aspect-video bg-gray-800 rounded-lg p-12 flex items-center justify-center">
+              <Image
+                src="/educad-logo.png"
+                alt="Educad Logo"
+                width={300}
+                height={200}
+                className="object-contain"
+              />
             </div>
             <div className="space-y-6">
-              <h2 className="text-3xl font-bold tracking-tighter">Case Study: Educad</h2>
-              <p className="text-lg text-muted-foreground">
+              <h2 className="text-3xl font-bold tracking-tighter text-white">Case Study: Educad</h2>
+              <p className="text-lg text-gray-300">
                 Our team are proud to work with Educad, an educational consulting firm. We have been working closely
                 with them to build a leads-focused advertising strategy. Our optimisation of their Google Ads has
                 generated them more than an 8x return on ad spend, which has allowed them to focus their efforts on
                 client relations and reinvestment to grow their company.
               </p>
-              <Button variant="outline" asChild>
+              <Button variant="outline" className="bg-transparent text-white hover:bg-white/10" asChild>
                 <Link href="/case-studies/educad">Read More</Link>
               </Button>
             </div>

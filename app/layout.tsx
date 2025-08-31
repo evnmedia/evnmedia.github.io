@@ -10,7 +10,7 @@ const inter = Inter({ subsets: ["latin"] })
 export const metadata = {
   title: "EVN Media - Google Ads Optimisation Agency",
   description: "We help businesses maximize their ROAS through data-driven Google Ads optimization strategies.",
-    generator: 'v0.dev'
+  generator: 'v0.dev'
 }
 
 export default function RootLayout({
