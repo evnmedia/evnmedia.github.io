@@ -27,7 +27,7 @@ export default function BlogArticlePage() {
 
               <div className="aspect-[2/1] relative overflow-hidden rounded-lg">
                 <Image
-                  src="/placeholder.svg"
+                  src="/blog-bidding-strategies.png"
                   alt="Google Ads bidding strategies optimisation"
                   fill
                   className="object-cover"

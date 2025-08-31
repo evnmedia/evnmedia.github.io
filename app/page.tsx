@@ -142,7 +142,7 @@ export default function Home() {
             className="grid md:grid-cols-2 gap-12 items-center"
           >
             <div className="relative aspect-video">
-              <Image src="/placeholder.svg" alt="Educad Case Study" fill className="object-cover rounded-lg" />
+              <Image src="/educad-logo.png" alt="Educad Case Study" fill className="object-cover rounded-lg" />
             </div>
             <div className="space-y-6">
               <h2 className="text-3xl font-bold tracking-tighter">Case Study: Educad</h2>

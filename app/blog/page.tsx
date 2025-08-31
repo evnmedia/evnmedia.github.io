@@ -11,7 +11,7 @@ const articles = [
     title: "Pros and Cons of PPC advertising",
     excerpt:
       "Pay-per-click (PPC) advertising is a popular form of online advertising where advertisers pay each time a user clicks on one of their...",
-    image: "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/image-DrabDfTR7tLssryIkSNX8J5yY05y3n.png",
+    image: "/blog-ppc-pros-cons.png",
     date: "2024-03-14",
   },
   {
@@ -19,7 +19,7 @@ const articles = [
     title: "Best practices for creating high-converting Google Ads campaigns",
     excerpt:
       "Google Ads is a powerful tool for businesses looking to reach their target audience and drive conversions. However, creating a...",
-    image: "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/image-hUrvkoMPfmCDpFrRMt9UbcyD15IJE6.png",
+    image: "/blog-high-converting.png",
     date: "2024-03-14",
   },
   {
@@ -27,7 +27,7 @@ const articles = [
     title: "The importance of digital marketing",
     excerpt:
       "In today's digital age, it is more important than ever for businesses to utilise digital marketing as part of their marketing strategy....",
-    image: "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/image-uqZcvP8BxN9UsGCWV1JVrg8h2On2P2.png",
+    image: "/blog-digital-marketing.png",
     date: "2024-03-14",
   },
   {
@@ -35,7 +35,7 @@ const articles = [
     title: "Tips for improving Quality Score in Google Ads",
     excerpt:
       "Google Ads' Quality Score is a metric that measures the relevance and quality of your ads, keywords, and landing pages. A higher Quality...",
-    image: "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/image-SEI9CBMydl2PPcx4RaQK9VAgHynmLc.png",
+    image: "/blog-quality-score.png",
     date: "2024-03-10",
   },
   {
@@ -43,7 +43,7 @@ const articles = [
     title: "Common mistakes to avoid in Google Ads campaign management",
     excerpt:
       "Google Ads can be a highly effective tool for driving traffic, leads, and sales to your business. However, there are several common...",
-    image: "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/image-h4TQ3T62ROOV5ac6YYd5vrXJsVpayw.png",
+    image: "/blog-common-mistakes.png",
     date: "2024-03-10",
   },
   {
@@ -51,7 +51,7 @@ const articles = [
     title: "How to optimise Google Ads for mobile users",
     excerpt:
       "With the growing use of mobile devices, it's important to ensure that your Google Ads campaigns are optimised for mobile users. In fact,...",
-    image: "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/image-vsZYZWIqrMdI9wlltXA3gwbmeuBa0s.png",
+    image: "/blog-mobile-optimization.png",
     date: "2024-02-28",
   },
   {
@@ -59,7 +59,7 @@ const articles = [
     title: "The benefits of using Google Ads for ecommerce stores",
     excerpt:
       "Google Ads is a powerful advertising platform that offers numerous benefits for ecommerce stores looking to drive more traffic, increase...",
-    image: "/placeholder.svg",
+    image: "/blog-benefits-ecommerce.png",
     date: "2024-02-28",
   },
   {
@@ -67,7 +67,7 @@ const articles = [
     title: "Using Google Analytics to measure the success of your Google Ads campaigns",
     excerpt:
       "Google Analytics is a powerful tool that can help you measure the success of your Google Ads campaigns and gain insights into how your...",
-    image: "/placeholder.svg",
+    image: "/blog-google-analytics.png",
     date: "2024-02-28",
   },
   {
@@ -75,7 +75,7 @@ const articles = [
     title: "Leveraging Google Ads remarketing to increase conversions",
     excerpt:
       "Remarketing is a powerful tool for increasing conversions in Google Ads. Remarketing allows you to show ads to users who have already...",
-    image: "/placeholder.svg",
+    image: "/blog-remarketing.png",
     date: "2024-02-15",
   },
   {
@@ -83,7 +83,7 @@ const articles = [
     title: "How to lower your cost-per-click in Google Ads",
     excerpt:
       "Google Ads can be an effective way to drive traffic and increase conversions for your business, but it can also become expensive if...",
-    image: "/placeholder.svg",
+    image: "/blog-lower-cpc.png",
     date: "2024-02-15",
   },
   {
@@ -91,7 +91,7 @@ const articles = [
     title: "The impact of ad copy and creative on Google Ads performance",
     excerpt:
       "Ad copy and creative are crucial components of Google Ads campaigns. They are the first thing that potential customers see when they...",
-    image: "/placeholder.svg",
+    image: "/blog-ad-copy.png",
     date: "2024-02-08",
   },
   {
@@ -99,7 +99,7 @@ const articles = [
     title: "Integrating Google Ads with other digital marketing channels for a cohesive strategy",
     excerpt:
       "In today's digital age, businesses must consider the big picture when it comes to their marketing efforts. While Google Ads is an...",
-    image: "/placeholder.svg",
+    image: "/blog-integrating.png",
     date: "2024-02-08",
   },
   {
@@ -107,7 +107,7 @@ const articles = [
     title: "Advanced targeting options in Google Ads for niche audiences",
     excerpt:
       "As more businesses move their marketing efforts online, it's becoming increasingly important to find creative ways to target niche...",
-    image: "/placeholder.svg",
+    image: "/blog-advanced-targeting.png",
     date: "2024-01-27",
   },
   {
@@ -115,7 +115,7 @@ const articles = [
     title: "Using automation and machine learning in Google Ads for optimal performance",
     excerpt:
       "Google Ads is a powerful tool for businesses looking to drive traffic and increase conversions. However, managing Google Ads campaigns...",
-    image: "/placeholder.svg",
+    image: "/blog-automation-ml.png",
     date: "2024-01-27",
   },
   {
@@ -123,7 +123,7 @@ const articles = [
     title: "How to run effective A/B testing in Google Ads",
     excerpt:
       "A/B testing is a powerful tool for businesses looking to optimise their Google Ads campaigns. By testing different variations of ads,...",
-    image: "/placeholder.svg",
+    image: "/blog-ab-testing.png",
     date: "2024-01-27",
   },
   {
@@ -131,14 +131,14 @@ const articles = [
     title: "The role of landing pages in Google Ads success",
     excerpt:
       "Google Ads is a highly effective way for businesses to reach their target audience and drive traffic to their website. However, even the...",
-    image: "/placeholder.svg",
+    image: "/blog-landing-pages.png",
     date: "2024-01-15",
   },
   {
     slug: "optimising-bidding-strategies",
     title: "Optimising bidding strategies in Google Ads for maximum ROI",
     excerpt: "To get the most out of your Google Ads campaigns, it is essential to optimise your bidding strategy.",
-    image: "/placeholder.svg",
+    image: "/blog-bidding-strategies.png",
     date: "2024-01-15",
   },
   {
@@ -146,7 +146,7 @@ const articles = [
     title: "5 Effective Strategies to Reduce Cart Abandonment Rates in E-Commerce",
     excerpt:
       "One of the biggest challenges that e-commerce stores face is cart abandonment. Cart abandonment refers to the act of a customer adding...",
-    image: "/placeholder.svg",
+    image: "/blog-cart-abandonment.png",
     date: "2024-01-15",
   },
 ]

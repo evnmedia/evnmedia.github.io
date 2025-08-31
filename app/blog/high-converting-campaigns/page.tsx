@@ -27,7 +27,7 @@ export default function BlogArticlePage() {
 
               <div className="aspect-[2/1] relative overflow-hidden rounded-lg">
                 <Image
-                  src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/image-hUrvkoMPfmCDpFrRMt9UbcyD15IJE6.png"
+                  src="/blog-high-converting.png"
                   alt="An open-plan office with exposed ceiling, modern furniture, and people working at desks"
                   fill
                   className="object-cover"

@@ -27,7 +27,7 @@ export default function BlogArticlePage() {
 
               <div className="aspect-[2/1] relative overflow-hidden rounded-lg">
                 <Image
-                  src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/image-vsZYZWIqrMdI9wlltXA3gwbmeuBa0s.png"
+                  src="/blog-mobile-optimization.png"
                   alt="A close-up of two people's hands, one holding a smartphone and the other gesturing towards it"
                   fill
                   className="object-cover"

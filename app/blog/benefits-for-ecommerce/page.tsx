@@ -27,7 +27,7 @@ export default function BlogArticlePage() {
 
               <div className="aspect-[2/1] relative overflow-hidden rounded-lg">
                 <Image
-                  src="/placeholder.svg"
+                  src="/blog-benefits-ecommerce.png"
                   alt="Benefits of Google Ads for ecommerce"
                   fill
                   className="object-cover"

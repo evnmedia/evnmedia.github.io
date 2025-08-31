@@ -1,0 +1,22 @@
+# Image URL Mapping (for reference)
+# All images now downloaded and stored locally in /public/
+
+blog-ppc-pros-cons.png <- https://hebbkx1anhila5yf.public.blob.vercel-storage.com/image-DrabDfTR7tLssryIkSNX8J5yY05y3n.png
+blog-high-converting.png <- https://hebbkx1anhila5yf.public.blob.vercel-storage.com/image-hUrvkoMPfmCDpFrRMt9UbcyD15IJE6.png
+blog-digital-marketing.png <- https://hebbkx1anhila5yf.public.blob.vercel-storage.com/image-uqZcvP8BxN9UsGCWV1JVrg8h2On2P2.png
+blog-quality-score.png <- https://hebbkx1anhila5yf.public.blob.vercel-storage.com/image-SEI9CBMydl2PPcx4RaQK9VAgHynmLc.png
+blog-common-mistakes.png <- https://hebbkx1anhila5yf.public.blob.vercel-storage.com/image-h4TQ3T62ROOV5ac6YYd5vrXJsVpayw.png
+blog-mobile-optimization.png <- https://hebbkx1anhila5yf.public.blob.vercel-storage.com/image-vsZYZWIqrMdI9wlltXA3gwbmeuBa0s.png
+blog-benefits-ecommerce.png <- https://hebbkx1anhila5yf.public.blob.vercel-storage.com/image-FbHwZOH5ive7rBf1z9StEDasfHHH3Q.png
+blog-google-analytics.png <- https://hebbkx1anhila5yf.public.blob.vercel-storage.com/image-JJT6M6jiMwDsev4rtsmvM3llMIoiAV.png
+blog-remarketing.png <- https://hebbkx1anhila5yf.public.blob.vercel-storage.com/image-0w2G2WUP4g29EMPzz0FIOvhOQ7L1vu.png
+blog-lower-cpc.png <- https://hebbkx1anhila5yf.public.blob.vercel-storage.com/image-kpIVaBjX4BXqwCnPlSEUJtU1wB8CQk.png
+blog-ad-copy.png <- https://hebbkx1anhila5yf.public.blob.vercel-storage.com/image-7ZJmaRBc2Kkf5Tgmgwpd7Pm4prc8qv.png
+blog-integrating.png <- https://hebbkx1anhila5yf.public.blob.vercel-storage.com/image-8cl5Jarr2luqVCNC3woXGQCjqgKQW9.png
+blog-advanced-targeting.png <- https://hebbkx1anhila5yf.public.blob.vercel-storage.com/image-PwUd50YOcQX1iX1SB3ZZbplzIuafXW.png
+blog-automation-ml.png <- https://hebbkx1anhila5yf.public.blob.vercel-storage.com/image-Cl3dhv8J4Rr5rJC7UmivvR6dETp5pv.png
+blog-ab-testing.png <- https://hebbkx1anhila5yf.public.blob.vercel-storage.com/image-SEQTcR9q30o7L3DORJ7yGVJFKkVK9y.png
+blog-landing-pages.png <- https://hebbkx1anhila5yf.public.blob.vercel-storage.com/image-cUdAGH4hw0Oal6IQNWpxeM1agE4zlZ.png
+blog-bidding-strategies.png <- https://hebbkx1anhila5yf.public.blob.vercel-storage.com/image-RqeaTY2LePmEuDeefhDXzKF9J6OcP0.png
+blog-cart-abandonment.png <- https://hebbkx1anhila5yf.public.blob.vercel-storage.com/image-UulNI9ZtC3iW1Ad9wLZwZ6AE2Dt7Nq.png
+educad-logo.png <- https://hebbkx1anhila5yf.public.blob.vercel-storage.com/image-vzkfQyFqau4kyAMx7lTp0wxi5ha1Ar.png

@@ -27,7 +27,7 @@ export default function BlogArticlePage() {
 
               <div className="aspect-[2/1] relative overflow-hidden rounded-lg">
                 <Image
-                  src="/placeholder.svg"
+                  src="/blog-google-analytics.png"
                   alt="Using Google Analytics with Google Ads"
                   fill
                   className="object-cover"
