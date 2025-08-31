@@ -1,6 +1,3 @@
-"use client"
-
-import { motion } from "framer-motion"
 import { Button } from "@/components/ui/button"
 import Link from "next/link"
 import Image from "next/image"
@@ -26,6 +23,12 @@ const articles = [
   // ... add all other articles with their images
 ]
 
+export async function generateStaticParams() {
+  return articles.map((article) => ({
+    slug: article.slug,
+  }))
+}
+
 export default function BlogArticlePage({ params }: { params: { slug: string } }) {
   const article = articles.find((article) => article.slug === params.slug)
 
@@ -38,12 +41,7 @@ export default function BlogArticlePage({ params }: { params: { slug: string } }
       <article className="py-20">
         <div className="container px-4">
           <div className="max-w-3xl mx-auto">
-            <motion.div
-              initial={{ opacity: 0, y: 20 }}
-              animate={{ opacity: 1, y: 0 }}
-              transition={{ duration: 0.8 }}
-              className="space-y-8"
-            >
+            <div className="space-y-8">
               <Button variant="ghost" asChild className="-ml-4">
                 <Link href="/blog" className="flex items-center gap-2">
                   <ChevronLeft className="h-4 w-4" />
@@ -65,7 +63,7 @@ export default function BlogArticlePage({ params }: { params: { slug: string } }
                 <p className="text-lg text-muted-foreground">{article.excerpt}</p>
                 <p className="text-muted-foreground">Full article content coming soon...</p>
               </div>
-            </motion.div>
+            </div>
           </div>
         </div>
       </article>
