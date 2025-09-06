@@ -180,8 +180,8 @@ export default function BlogPage() {
                 key={article.slug}
                 initial={{ opacity: 0, y: 20 }}
                 whileInView={{ opacity: 1, y: 0 }}
-                transition={{ duration: 0.8, delay: index * 0.1 }}
-                viewport={{ once: true }}
+                transition={{ duration: 0.5, delay: Math.min(index * 0.05, 0.3) }}
+                viewport={{ once: true, margin: "200px" }}
               >
                 <Link href={`/blog/${article.slug}`}>
                   <Card className="h-full flex flex-col transition-colors hover:bg-muted/50">
@@ -191,6 +191,9 @@ export default function BlogPage() {
                         alt={article.title}
                         fill
                         className="object-cover"
+                        loading={index < 6 ? "eager" : "lazy"}
+                        priority={index < 3}
+                        sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
                       />
                     </div>
                     <CardHeader>
